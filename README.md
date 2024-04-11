@@ -40,10 +40,16 @@ There are no special packages needed for this project, most of packages come wit
   
 <a name="KeyResults"></a>
 ## Key Results
+
+<img src="https://github.com/YimingZ13/Message_Spam_Detection_with_SVC_Naive_Bayes/blob/main/confusion_matrics/Screenshot%202024-04-11%20at%2012.26.19%20AM.png" width="500" height="350">
+<img src="https://github.com/YimingZ13/Message_Spam_Detection_with_SVC_Naive_Bayes/blob/main/confusion_matrics/Screenshot%202024-04-11%20at%2012.26.27%20AM.png" width="500" height="350">
+
 - The best performed model were SVC (F1: 0.92) and Naive Bayes (F1: 0.91) model.
 - While both models show high performance, the SVC model has a slightly better balance between precision and recall, resulting in a higher F1 Score.
 - If minimizing false negatives is more important, the SVC model is preferable due to its higher recall.
 - If precision is more critical (minimizing the risk of marking legitimate emails as spam), the NB model has a slight edge, though the difference is minimal.
+
+
 
 <a name="Authors"></a>
 ## Authors
